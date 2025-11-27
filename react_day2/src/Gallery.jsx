@@ -1,7 +1,6 @@
-export default function Gallery() {
+import { Profile } from "./Profile"
+export function Gallery() {
   return (
-    <img
-      src="https://i.imgur.com/MK3eW3As.jpg"
-      alt="Katherine Johnson" />
+    <Profile />
   )
 }
